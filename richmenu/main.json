@@ -1,0 +1,59 @@
+{
+    "size": {
+      "width": 2500,
+      "height": 1686
+    },
+    "selected": true,
+    "name": "main",
+    "chatBarText": "メニュー表示•非表示切り替え",
+    "areas": [
+      {
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 2500,
+          "height": 858
+        },
+        "action": {
+          "type": "message",
+          "text": "制度を探す"
+        }
+      },
+      {
+        "bounds": {
+          "x": 0,
+          "y": 866,
+          "width": 829,
+          "height": 805
+        },
+        "action": {
+          "type": "uri",
+          "uri": "https://civichat.jp/"
+        }
+      },
+      {
+        "bounds": {
+          "x": 842,
+          "y": 866,
+          "width": 821,
+          "height": 809
+        },
+        "action": {
+          "type": "uri",
+          "uri": "https://civichat.jp/#faq"
+        }
+      },
+      {
+        "bounds": {
+          "x": 1675,
+          "y": 862,
+          "width": 817,
+          "height": 801
+        },
+        "action": {
+          "type": "uri",
+          "uri": "line://nv/recommendOA/@154aammz"
+        }
+      }
+    ]
+  }

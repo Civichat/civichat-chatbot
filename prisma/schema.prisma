@@ -1,0 +1,259 @@
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "rhel-openssl-1.0.x"]
+}
+
+datasource db {
+  provider          = "postgresql"
+  url               = env("DATABASE_URL")
+}
+
+model apply_locations {
+  service_id           String
+  application_lcoation String
+  shibuya_parenting    shibuya_parenting   @relation(fields: [service_id], references: [service_id], onDelete: NoAction, onUpdate: NoAction)
+  kumamoto_earthquake  kumamoto_earthquake @relation(fields: [service_id], references: [service_id], onDelete: NoAction, onUpdate: NoAction, map: "apply_locations_service_id_fkey1")
+
+  @@id([service_id, application_lcoation])
+}
+
+model apply_postal_address {
+  service_id          String
+  postal_address      String
+  shibuya_parenting   shibuya_parenting   @relation(fields: [service_id], references: [service_id], onDelete: NoAction, onUpdate: NoAction)
+  kumamoto_earthquake kumamoto_earthquake @relation(fields: [service_id], references: [service_id], onDelete: NoAction, onUpdate: NoAction, map: "apply_postal_address_service_id_fkey1")
+
+  @@id([service_id, postal_address])
+}
+
+model data_sources {
+  id                   Int           @id @default(autoincrement())
+  org_id               Int
+  name                 String        @db.VarChar(255)
+  type                 String        @db.VarChar(255)
+  encrypted_options    Bytes
+  queue_name           String        @db.VarChar(255)
+  scheduled_queue_name String        @db.VarChar(255)
+  created_at           DateTime      @db.Timestamptz(6)
+  organizations        organizations @relation(fields: [org_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@index([org_id, name], map: "data_sources_org_id_name")
+}
+
+model documents {
+  service_id          String
+  document_name       String
+  document_url        String?
+  shibuya_parenting   shibuya_parenting   @relation(fields: [service_id], references: [service_id], onDelete: NoAction, onUpdate: NoAction)
+  kumamoto_earthquake kumamoto_earthquake @relation(fields: [service_id], references: [service_id], onDelete: NoAction, onUpdate: NoAction, map: "documents_service_id_fkey1")
+
+  @@id([service_id, document_name])
+}
+
+model japan {
+  service_id               String  @id @unique
+  service_number           String?
+  origin_id                String?
+  alteration_flag          String?
+  provider                 String?
+  prefecture_id            String?
+  city_id                  String?
+  name                     String?
+  abstract                 String?
+  provisions               String?
+  target                   String?
+  how_to_apply             String?
+  application_start_date   String?
+  application_close_date   String?
+  detail_url               String?
+  contact                  String?
+  information_release_date String?
+  tags                     String?
+  theme                    String?
+  category                 String?
+  person_type              String?
+  entity_type              String?
+  keyword_type             String?
+  issue_type               String?
+}
+
+model kumamoto_earthquake {
+  service_id                                                            String                 @id @unique
+  management_id                                                         String?
+  name                                                                  String?
+  target                                                                String?
+  sub_title                                                             String?
+  priority                                                              String?
+  start_release_date                                                    String?
+  end_release_date                                                      String?
+  is_release                                                            String?
+  overview                                                              String?
+  organization                                                          String?
+  parent_system                                                         String?
+  relationship_parent_system                                            String?
+  qualification                                                         String?
+  purpose                                                               String?
+  area                                                                  String?
+  support_content                                                       String?
+  note                                                                  String?
+  how_to_use                                                            String?
+  needs                                                                 String?
+  documents_url                                                         String?
+  postal_address                                                        String?
+  acceptable_dates                                                      String?
+  acceptable_times                                                      String?
+  apply_url                                                             String?
+  start_application_date                                                String?
+  end_application_date                                                  String?
+  contact                                                               String?
+  detail_url                                                            String?
+  administrative_service_category                                       String?
+  lifestage_category                                                    String?
+  problem_category                                                      String?
+  apply_locations                                                       apply_locations[]
+  apply_postal_address                                                  apply_postal_address[]
+  documents                                                             documents[]
+  related_system_kumamoto_earthquakeTorelated_system_object_service_id  related_system[]       @relation("kumamoto_earthquakeTorelated_system_object_service_id")
+  related_system_kumamoto_earthquakeTorelated_system_subject_service_id related_system[]       @relation("kumamoto_earthquakeTorelated_system_subject_service_id")
+}
+
+model organizations {
+  updated_at   DateTime       @db.Timestamptz(6)
+  created_at   DateTime       @db.Timestamptz(6)
+  id           Int            @id @default(autoincrement())
+  name         String         @db.VarChar(255)
+  slug         String         @unique @db.VarChar(255)
+  settings     String
+  data_sources data_sources[]
+}
+
+model related_system {
+  subject_service_id                                                         String
+  object_service_id                                                          String
+  relationship                                                               String?
+  shibuya_parenting_related_system_object_service_idToshibuya_parenting      shibuya_parenting   @relation("related_system_object_service_idToshibuya_parenting", fields: [object_service_id], references: [service_id], onDelete: NoAction, onUpdate: NoAction)
+  kumamoto_earthquake_kumamoto_earthquakeTorelated_system_object_service_id  kumamoto_earthquake @relation("kumamoto_earthquakeTorelated_system_object_service_id", fields: [object_service_id], references: [service_id], onDelete: NoAction, onUpdate: NoAction, map: "related_system_object_service_id_fkey1")
+  shibuya_parenting_related_system_subject_service_idToshibuya_parenting     shibuya_parenting   @relation("related_system_subject_service_idToshibuya_parenting", fields: [subject_service_id], references: [service_id], onDelete: NoAction, onUpdate: NoAction)
+  kumamoto_earthquake_kumamoto_earthquakeTorelated_system_subject_service_id kumamoto_earthquake @relation("kumamoto_earthquakeTorelated_system_subject_service_id", fields: [subject_service_id], references: [service_id], onDelete: NoAction, onUpdate: NoAction, map: "related_system_subject_service_id_fkey1")
+
+  @@id([subject_service_id, object_service_id])
+}
+
+model results {
+  result_id   String   @id @unique
+  result_body String
+  line_id     String
+  src_table   String
+  created_at  DateTime
+}
+
+model seido_use_count {
+  service_id String @id @unique
+  count      Int
+}
+
+model shibuya_parenting {
+  service_id                                                          String                 @id @unique
+  service_number                                                      String?
+  origin_id                                                           String?
+  alteration_flag                                                     String?
+  provider                                                            String?
+  prefecture_id                                                       String?
+  city_id                                                             String?
+  name                                                                String?
+  abstract                                                            String?
+  provisions                                                          String?
+  target                                                              String?
+  how_to_apply                                                        String?
+  application_start_date                                              String?
+  application_close_date                                              String?
+  detail_url                                                          String?
+  contact                                                             String?
+  information_release_date                                            String?
+  tags                                                                String?
+  theme                                                               String?
+  category                                                            String?
+  person_type                                                         String?
+  entity_type                                                         String?
+  keyword_type                                                        String?
+  issue_type                                                          String?
+  civichat_price                                                      Int?
+  civichat_price_url                                                  String?
+  amount                                                              String?
+  apply_locations                                                     apply_locations[]
+  apply_postal_address                                                apply_postal_address[]
+  documents                                                           documents[]
+  related_system_related_system_object_service_idToshibuya_parenting  related_system[]       @relation("related_system_object_service_idToshibuya_parenting")
+  related_system_related_system_subject_service_idToshibuya_parenting related_system[]       @relation("related_system_subject_service_idToshibuya_parenting")
+}
+
+model shibuya_preschool {
+  service_id                                 String  @id @unique
+  prefecture_id                              String?
+  city_id                                    String?
+  area                                       String?
+  name                                       String?
+  target_age                                 String?
+  type_nursery_school                        String?
+  administrator                              String?
+  closed_days                                String?
+  playground                                 String?
+  bringing_your_own_towel                    String?
+  take_out_diapers                           String?
+  parking                                    String?
+  lunch                                      String?
+  ibservation                                String?
+  extended_hours_childcare                   String?
+  allergy_friendly                           String?
+  admission_available                        String?
+  apply                                      String?
+  detail_url                                 String?
+  contact                                    String?
+  information_release_date                   String?
+  availability_of_childcare_facilities_for_0 String?
+  availability_of_childcare_facilities_for_1 String?
+  availability_of_childcare_facilities_for_2 String?
+  availability_of_childcare_facilities_for_3 String?
+  availability_of_childcare_facilities_for_4 String?
+  availability_of_childcare_facilities_for_5 String?
+  location                                   String?
+  thisyear_admission_rate_for_0              String?
+  thisyear_admission_rate_for_1              String?
+  thisyear_admission_rate_for_2              String?
+  thisyear_admission_rate_for_3              String?
+  thisyear_admission_rate_for_4              String?
+  thisyear_admission_rate_for_5              String?
+  thisyear_admission_point_for_0             String?
+  thisyear_admission_point_for_1             String?
+  thisyear_admission_point_for_2             String?
+  thisyear_admission_point_for_3             String?
+  thisyear_admission_point_for_4             String?
+  thisyear_admission_point_for_5             String?
+  lastyear_admission_rate_for_0              String?
+  lastyear_admission_rate_for_1              String?
+  lastyear_admission_rate_for_2              String?
+  lastyear_admission_rate_for_3              String?
+  lastyear_admission_rate_for_4              String?
+  lastyear_admission_rate_for_5              String?
+  lastyear_admission_point_for_0             String?
+  lastyear_admission_point_for_1             String?
+  lastyear_admission_point_for_2             String?
+  lastyear_admission_point_for_3             String?
+  lastyear_admission_point_for_4             String?
+  lastyear_admission_point_for_5             String?
+  security                                   String?
+  baby_buggy                                 String?
+  ibservation_detail                         String?
+}
+
+/// The underlying table does not contain a valid unique identifier and can therefore currently not be handled by the Prisma Client.
+model users {
+  line_id             String   @id @unique
+  created_at          DateTime
+  shibuya_preschool   Int?
+  shibuya_parenting   Int?
+  kumamoto_earthquake Int?
+  japan               Int?
+  updated_at          DateTime @updatedAt
+  favorite            String
+}

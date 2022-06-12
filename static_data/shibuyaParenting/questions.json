@@ -1,0 +1,108 @@
+{
+  "questions": [
+    {
+      "question_id": "5f2be887-1e0b-4d4c-b475-f2c496c30846",
+      "question_text": "ひとり親世帯ですか？",
+      "answers": [
+        {
+          "answer_id": "41f758ac-78b6-4ee7-a08c-95b1932921cd",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "2276834d-4adb-4e7e-b27d-068b6a7df3c2",
+          "answer_text": "いいえ"
+        }
+      ]
+    },
+    {
+      "question_id": "ebc81ed9-09ef-4c30-b350-5bb64688d2e6",
+      "question_text": "お子さんの年齢は何歳ですか？",
+      "answers": [
+        {
+          "answer_id": "2f30bde2-08be-4b77-a90a-c3b057f54d6c",
+          "answer_text": "0歳4ヶ月未満"
+        },
+        {
+          "answer_id": "eb76c846-b743-4a48-a7dd-3e6ea8f002ac",
+          "answer_text": "2歳未満"
+        },
+        {
+          "answer_id": "4d791503-0a06-4143-b8ed-f43b8683aae5",
+          "answer_text": "6歳以下"
+        },
+        {
+          "answer_id": "5328080b-314b-4035-a481-79ffae1624bc",
+          "answer_text": "15歳以下"
+        },
+        {
+          "answer_id": "b6982f41-5239-40e3-a3c4-57df980f9819",
+          "answer_text": "18歳以下"
+        },
+        {
+          "answer_id": "aefe3125-066c-478a-a58a-9110d90d7e7d",
+          "answer_text": "20歳未満"
+        },
+        {
+          "answer_id": "eac25fbd-ab11-4a10-9d26-6fc7cece6118",
+          "answer_text": "それ以上"
+        }
+      ]
+    },
+    {
+      "question_id": "894d8e72-3f0f-47eb-9179-181395a51052",
+      "question_text": "児童扶養手当の支給を受けていますか？",
+      "answers": [
+        {
+          "answer_id": "d78858b2-d87f-47ba-a8d4-593e89f06d00",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "3c9d1a35-4e6e-4248-a045-fa510d84048a",
+          "answer_text": "いいえ"
+        }
+      ]
+    },
+    {
+      "question_id": "96994748-4521-4499-b76d-043cdc63288b",
+      "question_text": "お子さんは身体・精神に一定の障害があり、日常生活に制限を受けていますか？",
+      "answers": [
+        {
+          "answer_id": "3659e88c-726e-447b-8952-c498c59c5aa8",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "4ddc0940-c182-426c-9d91-6abd76853724",
+          "answer_text": "いいえ"
+        }
+      ]
+    },
+    {
+      "question_id": "793f18d6-0aca-45e5-b3a1-a042cb3f807f",
+      "question_text": "妊娠12週を超えて出産しましたか？",
+      "answers": [
+        {
+          "answer_id": "7645ff73-d8b1-4ab7-a8c1-b62b6b22d6a0",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "870b18be-4f57-45bd-9142-5104d6bb949e",
+          "answer_text": "いいえ"
+        }
+      ]
+    },
+    {
+      "question_id": "d0015fc2-a0e7-4678-8c38-439e74efcb4f",
+      "question_text": "保護者の方は18歳以下ですか？",
+      "answers": [
+        {
+          "answer_id": "d12d89d6-7a5d-43ed-ac3f-fbf2813eb70a",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "ee20de17-4c6c-4157-82f6-4936e27a652c",
+          "answer_text": "いいえ"
+        }
+      ]
+    }
+  ]
+}

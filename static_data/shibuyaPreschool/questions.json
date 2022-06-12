@@ -1,0 +1,200 @@
+{
+  "questions": [
+    {
+      "question_id": "cc76c537-233c-41e3-ba64-dd95ea50a957",
+      "question_text": "何歳児クラスをご希望ですか？",
+      "answers": [
+        {
+          "answer_id": "956857cf-3de7-44bd-adbf-214daa137139",
+          "answer_text": "0歳児"
+        },
+        {
+          "answer_id": "6ff923fc-79da-4b94-8431-f6aa8ebe66d7",
+          "answer_text": "1歳児"
+        },
+        {
+          "answer_id": "29e10800-4b8e-486d-8db4-ca6dc25b552c",
+          "answer_text": "2歳児"
+        },
+        {
+          "answer_id": "093b6805-0ec5-4d2a-97b5-d35a84e50a3e",
+          "answer_text": "3歳児"
+        },
+        {
+          "answer_id": "94b5a689-e133-4ecb-bb38-e4d68c432abc",
+          "answer_text": "4歳児"
+        },
+        {
+          "answer_id": "cc533251-08a9-42d1-b465-6ed9e006001f",
+          "answer_text": "5歳児"
+        }
+      ]
+    },
+    {
+      "question_id": "b3d67c6d-e22f-4bdc-a9dc-d77f8bf982f4",
+      "question_text": "ご希望の保育施設はどのエリアですか？\n\n（A）笹塚・幡ヶ谷・本町\n\n（B）上原・大山町・西原・初台・元代々木町・富ヶ谷・代々木神園町・代々木\n\n（C） 千駄ヶ谷・神宮前\n\n（D） 神山町・神南・宇田川町・松濤・神泉町・円山町・道玄坂・南平台町・桜丘町・鉢山町・鶯谷町・猿楽町・代官山町・恵比寿西・恵比寿南\n\n（E） 渋谷・東・広尾・恵比寿",
+      "answers": [
+        {
+          "answer_id": "d1454997-7eec-4237-8719-5dd3932105e1",
+          "answer_text": "A"
+        },
+        {
+          "answer_id": "e83693d3-eee6-41cc-b52a-ec69063f4cfe",
+          "answer_text": "B"
+        },
+        {
+          "answer_id": "5e077bb2-5dc7-4acf-af16-4410192ce068",
+          "answer_text": "C"
+        },
+        {
+          "answer_id": "80f359d7-ca40-441c-8514-fc34c33fa405",
+          "answer_text": "D"
+        },
+        {
+          "answer_id": "6c6ef41d-cdcc-4dbf-942b-4e27cdcf793b",
+          "answer_text": "E"
+        }
+      ]
+    },
+    {
+      "question_id": "77f98f52-a21d-419a-97da-8c9a59cd97c1",
+      "question_text": "ご希望の施設のカテゴリーはありますか？",
+      "answers": [
+        {
+          "answer_id": "e426d8bb-47f6-4ebb-a4e3-26b23b50f600",
+          "answer_text": "保育園"
+        },
+        {
+          "answer_id": "4a02827a-8a1e-469a-b827-7bc56f384aac",
+          "answer_text": "幼稚園"
+        },
+        {
+          "answer_id": "008dfee3-9f6a-442b-add3-a9335469c2a5",
+          "answer_text": "幼保一元化"
+        },
+        {
+          "answer_id": "ac50cb6f-a9c8-4beb-a9ff-053a4d17d93d",
+          "answer_text": "保育園&幼保一元化"
+        },
+        {
+          "answer_id": "74a092fe-6d39-43fb-8cc5-48c4d35bcd4d",
+          "answer_text": "小規模保育施設"
+        },
+        {
+          "answer_id": "b8430815-bf55-4568-ac04-64ea8eabc52b",
+          "answer_text": "認証保育所"
+        },
+        {
+          "answer_id": "af52f30d-eb98-4344-badc-5bb5b8b38519",
+          "answer_text": "特になし"
+        }
+      ]
+    },
+    {
+      "question_id": "b4f8c89d-fa36-4009-9fa6-91d182f982dd",
+      "question_text": "ご希望の施設の運営者はありますか？",
+      "answers": [
+        {
+          "answer_id": "f47caadd-9e54-446d-846e-3f105fc9cd2b",
+          "answer_text": "区立"
+        },
+        {
+          "answer_id": "ddba86f7-e007-4876-b9cf-90e8f8859df8",
+          "answer_text": "私立"
+        },
+        {
+          "answer_id": "013df522-8da1-4566-97b5-d168d75f6bfe",
+          "answer_text": "特になし"
+        }
+      ]
+    },
+    {
+      "question_id": "76c8e68a-7692-4cdf-8fc7-c594249cecef",
+      "question_text": "ご希望の通園日はありますか？",
+      "answers": [
+        {
+          "answer_id": "cd0255f6-3e6d-4d4d-a385-c2b500d0443e",
+          "answer_text": "月〜金曜日"
+        },
+        {
+          "answer_id": "d7570686-3adf-41d8-9183-9eaef3546d05",
+          "answer_text": "月〜土曜日"
+        },
+        {
+          "answer_id": "2a52c2a8-8eec-4ce9-8a42-375e16c6ad89",
+          "answer_text": "月〜日曜日"
+        },
+        {
+          "answer_id": "85601537-ac0a-4010-9eac-d24d4378d6c7",
+          "answer_text": "特になし"
+        }
+      ]
+    },
+    {
+      "question_id": "2efbcdd1-a998-48d8-8013-05973713c63b",
+      "question_text": "施設内に園庭はご希望ですか？",
+      "answers": [
+        {
+          "answer_id": "530c7eec-3909-4d72-a202-667011622f83",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "4739fb8b-a24e-479c-924f-21a5fdf96e75",
+          "answer_text": "いいえ"
+        },
+        {
+          "answer_id": "05cf5cce-6d9a-4531-958e-accd60430a71",
+          "answer_text": "どちらでも良い"
+        }
+      ]
+    },
+    {
+      "question_id": "cdb1ba0a-3dd0-4580-b402-46e30b3f85a2",
+      "question_text": "最大何時までの保育をご希望ですか？",
+      "answers": [
+        {
+          "answer_id": "1199303a-2fc1-4561-8afe-47354dc627dc",
+          "answer_text": "17時まで"
+        },
+        {
+          "answer_id": "e3ce9e1d-1802-4cb1-ab34-4ed248c7ffdb",
+          "answer_text": "18時まで"
+        },
+        {
+          "answer_id": "503bca0c-3423-46e0-8010-7f2b7623de3e",
+          "answer_text": "19時30分まで"
+        },
+        {
+          "answer_id": "d826ef6a-bb3a-4148-a13a-5e2b8e0ea54d",
+          "answer_text": "20時30分まで"
+        },
+        {
+          "answer_id": "bdb0ef2d-055a-466f-9980-4be37b123c13",
+          "answer_text": "21時30分まで"
+        },
+        {
+          "answer_id": "0b1c063e-9fa8-4945-8010-b7bd1c427597",
+          "answer_text": "いずれでも可"
+        }
+      ]
+    },
+    {
+      "question_id": "a37a2e61-3cd9-4bae-9b5f-3567906e22a5",
+      "question_text": "いま見学可能な園をご希望ですか？",
+      "answers": [
+        {
+          "answer_id": "8a5d79ec-34f7-4ca2-bc44-b266ab9cc4c3",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "b3e3c106-7343-466f-ae36-0a7155a5b0d1",
+          "answer_text": "いいえ"
+        },
+        {
+          "answer_id": "c89c9c73-6193-4c58-8f83-8db57348178f",
+          "answer_text": "どちらでも良い"
+        }
+      ]
+    }
+  ]
+}

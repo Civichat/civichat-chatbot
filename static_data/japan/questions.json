@@ -1,0 +1,468 @@
+{
+  "questions": [
+    {
+      "question_id": "12ffe48c-71b9-48fa-91ce-3b84184acbb8",
+      "question_text": "仕事を探している",
+      "answers": [
+        {
+          "answer_id": "96602c63-3740-4f3c-9d16-fc657be492ca",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "2b99692e-eee8-4ab1-a641-05424c990b90",
+          "answer_text": "いいえ"
+        }
+      ]
+    },
+    {
+      "question_id": "bdd1a2f1-5f9a-4e30-8a80-a187667c53fe",
+      "question_text": "心身のどちらかに障害がある",
+      "answers": [
+        {
+          "answer_id": "43df6ceb-7b70-4545-a8ce-c51a6d3a4d85",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "58a8b34a-fb09-448f-9639-0983c839ab74",
+          "answer_text": "いいえ"
+        }
+      ]
+    },
+    {
+      "question_id": "adfdb11f-2fb0-448e-a020-6c2040667212",
+      "question_text": "お金がなく、生活に余裕がない",
+      "answers": [
+        {
+          "answer_id": "0eb94836-4279-4faf-a4f9-09cd9a3da090",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "d9bcf164-b052-4923-9b11-98434a7aaec6",
+          "answer_text": "いいえ"
+        }
+      ]
+    },
+    {
+      "question_id": "d63e98d0-377b-4dd3-b977-13c0c52798ba",
+      "question_text": "住宅確保要配慮者に該当する",
+      "answers": [
+        {
+          "answer_id": "1dd84c26-bc6e-4bfc-9b34-48815791c527",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "fb139327-cbf2-4fcd-bb8a-761e6c7023c0",
+          "answer_text": "いいえ"
+        }
+      ]
+    },
+    {
+      "question_id": "c051fddc-d5ba-4939-b777-d09740121fef",
+      "question_text": "離職・廃業と同程度",
+      "answers": [
+        {
+          "answer_id": "096098f4-7039-491c-99f6-07eb8e47cb4a",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "f7994270-d70f-47ff-a83c-1db8833a0345",
+          "answer_text": "いいえ"
+        }
+      ]
+    },
+    {
+      "question_id": "f45805a2-3776-42cd-822c-803a631d03f1",
+      "question_text": "コロナによる経済被害がある",
+      "answers": [
+        {
+          "answer_id": "bb90f3c7-cf6e-4205-99a5-fe17355cd3c8",
+          "answer_text": "あり"
+        },
+        {
+          "answer_id": "97f0de8a-e7d2-4a9f-9e8e-dd0fb08c3246",
+          "answer_text": "なし"
+        }
+      ]
+    },
+    {
+      "question_id": "6026db10-224a-4eaa-8064-bee558b4038b",
+      "question_text": "会社が倒産した・定年・期間終了で仕事をなくした",
+      "answers": [
+        {
+          "answer_id": "ed0f1fef-28ce-4dfb-832d-b0908ebfab28",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "56cb3fc4-b15e-4fc8-ac90-4eea4da79628",
+          "answer_text": "いいえ"
+        }
+      ]
+    },
+    {
+      "question_id": "6734f70d-8da9-41f2-9cf7-649a1d984c8d",
+      "question_text": "フリーランス・自営業を廃業した、未就職などの理由により正社員への転職を目指す",
+      "answers": [
+        {
+          "answer_id": "2db0e81f-903a-47cb-9aed-9b85d2481da9",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "0d1577d6-e209-404b-87a7-aa4fc532fa96",
+          "answer_text": "いいえ"
+        }
+      ]
+    },
+    {
+      "question_id": "dcca648b-00f8-4c73-b1de-5199ceeaffc8",
+      "question_text": "会社が倒産して、賃金が支払われていない",
+      "answers": [
+        {
+          "answer_id": "17588565-6dce-409c-a958-9312174d3513",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "8f5fe6d3-83fc-44aa-905b-30b50e0a58f5",
+          "answer_text": "いいえ"
+        }
+      ]
+    },
+    {
+      "question_id": "d0c568d6-a8db-4c48-b1fe-a91684aed8e7",
+      "question_text": "被保険者の期間が12ヶ月以上ある",
+      "answers": [
+        {
+          "answer_id": "52ceef56-7d86-4d7b-9a25-9695e011418a",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "ab9d2666-c1f3-4187-a14e-27da61cb7f0e",
+          "answer_text": "いいえ"
+        }
+      ]
+    },
+    {
+      "question_id": "94bc30ac-d65c-411d-acac-6cd229af47b6",
+      "question_text": "病気や怪我のため、15日以上就業にすることができなかった",
+      "answers": [
+        {
+          "answer_id": "4ee55f43-92d4-480c-b16e-664ad8a6e583",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "85fb5d7a-545e-4b58-8e91-fd385ee0cd73",
+          "answer_text": "いいえ"
+        }
+      ]
+    },
+    {
+      "question_id": "9ba49b99-4289-48c0-8b30-48941549222e",
+      "question_text": "病気やケガの療養によって休業した",
+      "answers": [
+        {
+          "answer_id": "baf2909f-26bd-419f-85f6-31465f0f9cdb",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "b7142f44-8039-4baa-bf3a-0224d87406c2",
+          "answer_text": "いいえ"
+        }
+      ]
+    },
+    {
+      "question_id": "d04bec2d-faea-44d8-8a61-edd509eab394",
+      "question_text": "業務上の事由か・業務外か",
+      "answers": [
+        {
+          "answer_id": "30bac739-f5b1-4295-8ce4-66eccb920cd3",
+          "answer_text": "業務上の事由"
+        },
+        {
+          "answer_id": "1ffa5621-781b-4688-8153-dd29f1675813",
+          "answer_text": "業務外の事由"
+        }
+      ]
+    },
+    {
+      "question_id": "f3876ba0-5ef4-4bc5-9d5e-0a38d6843e24",
+      "question_text": "以下の理由で仕事を休む予定がある",
+      "answers": [
+        {
+          "answer_id": "5d7b5600-8342-4276-af0f-8f699666b619",
+          "answer_text": "育児休業"
+        },
+        {
+          "answer_id": "c2b144c6-9169-4f6b-bd22-eac60b24855e",
+          "answer_text": "介護休業"
+        },
+        {
+          "answer_id": "98949fad-97bd-4ca2-8a3d-634e365f7182",
+          "answer_text": "なし"
+        }
+      ]
+    },
+    {
+      "question_id": "3bbc6be8-5d0d-417d-88a4-6483f68a0e77",
+      "question_text": "補装具を必要とする",
+      "answers": [
+        {
+          "answer_id": "5600843f-4836-4cd3-a0fe-362f6d600117",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "524fc7b7-085d-4f9d-b6cf-d6d3590e8275",
+          "answer_text": "いいえ"
+        }
+      ]
+    },
+    {
+      "question_id": "acc52a46-bea7-4539-8f67-c008cb31f663",
+      "question_text": "国民年金 or 厚生年金に加入している",
+      "answers": [
+        {
+          "answer_id": "a223addb-62ad-4a24-873d-15247c7af836",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "09a4fc66-6693-4d54-9554-e83d281e5a9e",
+          "answer_text": "いいえ"
+        }
+      ]
+    },
+    {
+      "question_id": "58a89200-de89-4f16-b8ed-1c5d8a9c0ae6",
+      "question_text": "子育て世帯かどうか",
+      "answers": [
+        {
+          "answer_id": "5a61c26e-8e81-435f-b3c2-6660ff17a61d",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "db76b831-85f7-469f-825b-68c63400c472",
+          "answer_text": "いいえ"
+        }
+      ]
+    },
+    {
+      "question_id": "45a5155f-311d-4a59-bc61-996e0da5f7c4",
+      "question_text": "月に5万円以上の医療費を支払っている",
+      "answers": [
+        {
+          "answer_id": "cbaf119c-7b5a-4fef-b023-498364c92420",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "bdcb97f2-c106-47de-a294-7650f2ada79e",
+          "answer_text": "いいえ"
+        }
+      ]
+    },
+    {
+      "question_id": "1f48d74b-2d96-477e-a821-c028854b20c3",
+      "question_text": "特定疾病を持っている",
+      "answers": [
+        {
+          "answer_id": "7667727c-6fcd-4285-ba6b-340c1f985a6c",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "398a2227-1bcc-4296-bf55-434ccae89735",
+          "answer_text": "いいえ"
+        }
+      ]
+    },
+    {
+      "question_id": "b335b2be-eced-407d-ae33-dd3de600df99",
+      "question_text": "B型・C型ウイルス性肝炎患者である",
+      "answers": [
+        {
+          "answer_id": "2938334a-7ebf-4a37-9a5e-430a3b7a06d5",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "9866457a-d103-4e0e-bd0a-df7ecc087f59",
+          "answer_text": "いいえ"
+        }
+      ]
+    },
+    {
+      "question_id": "508ce71e-1166-412f-9fbb-e8d5e37b3c59",
+      "question_text": "介護の必要がある",
+      "answers": [
+        {
+          "answer_id": "e56eff79-78c1-43de-8637-7e8e870e9027",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "04dbc920-aba3-4110-bd36-0981c2e875c7",
+          "answer_text": "いいえ"
+        }
+      ]
+    },
+    {
+      "question_id": "c28ea892-ad9b-40a2-8e0a-71a82e0c750f",
+      "question_text": "福祉用具が必要",
+      "answers": [
+        {
+          "answer_id": "4dabd44c-1995-450a-a680-f3a4e1b6bbe8",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "e9b529fe-7063-4d53-8b14-9a17a95d9101",
+          "answer_text": "いいえ"
+        }
+      ]
+    },
+    {
+      "question_id": "5b761dd5-fed0-42c2-a8e7-0c2a9f954626",
+      "question_text": "妊娠・出産について当てはまるものを選んでください",
+      "answers": [
+        {
+          "answer_id": "9bff07c3-6334-4872-a835-bcb9b485781c",
+          "answer_text": "妊娠・出産した"
+        },
+        {
+          "answer_id": "9b8796fb-5d92-4fd5-b430-09bc652fff67",
+          "answer_text": "不妊"
+        },
+        {
+          "answer_id": "18a4da24-8cd4-4da0-be35-5518adcedb7e",
+          "answer_text": "わからない（男性）"
+        }
+      ]
+    },
+    {
+      "question_id": "c68fa695-0e35-40c3-9aa1-b8b7c613e5f6",
+      "question_text": "経済的な事情で入院して出産することが出来ない",
+      "answers": [
+        {
+          "answer_id": "6c9edb77-c919-45ca-8a3d-797aa9a2ad3c",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "5e9bd69c-d75a-4140-a6c3-d60047a7be73",
+          "answer_text": "いいえ"
+        }
+      ]
+    },
+    {
+      "question_id": "af160998-77f8-4514-bb37-d6f976ee23f3",
+      "question_text": "出産について",
+      "answers": [
+        {
+          "answer_id": "56c8e547-bcb5-4fe7-b237-c13a727395b8",
+          "answer_text": "未熟児・妊娠4ヶ月以上で出産した"
+        },
+        {
+          "answer_id": "5c033f42-ff2a-4ffb-bd7d-a8b4e4e5af41",
+          "answer_text": "当てはまるものはない"
+        }
+      ]
+    },
+    {
+      "question_id": "148cc09c-a29a-4677-ad63-882ddd8d7b16",
+      "question_text": "出産のために仕事を休んだ",
+      "answers": [
+        {
+          "answer_id": "cf0ef398-a323-4d89-a3da-445fe3c67354",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "35cbad11-92c8-4766-b740-6f916f107b94",
+          "answer_text": "いいえ"
+        }
+      ]
+    },
+    {
+      "question_id": "0ab645ee-1a7f-4f33-9110-a949e66fb287",
+      "question_text": "ひとり親世帯かどうか",
+      "answers": [
+        {
+          "answer_id": "ea528e71-4090-4c9e-9e36-e7a1361df6b1",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "a9b901a6-8c1f-40c7-9e3a-fd317ffa9f02",
+          "answer_text": "いいえ"
+        }
+      ]
+    },
+    {
+      "question_id": "aaa7831d-e225-4499-b902-81425fc0dbb5",
+      "question_text": "児童扶養手当の支給を受けているか又は同等の所得水準",
+      "answers": [
+        {
+          "answer_id": "3cd79da8-53d8-4a2f-9945-23a400bf30ec",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "9fd6774c-64ff-4d55-8c29-7e9db09c8b23",
+          "answer_text": "いいえ"
+        }
+      ]
+    },
+    {
+      "question_id": "384e574b-584e-4009-9ea3-7a9d7e81341a",
+      "question_text": "子どもの年齢",
+      "answers": [
+        {
+          "answer_id": "c0950973-9727-4e22-834c-a7d409ed4e3c",
+          "answer_text": "中学卒業まで（16歳未満）"
+        },
+        {
+          "answer_id": "789adb33-46d0-48e0-be12-92bd203d8504",
+          "answer_text": "高校卒業まで（19歳未満）"
+        },
+        {
+          "answer_id": "a4169db3-05e9-4d8b-937f-ea32773f5ebf",
+          "answer_text": "20歳未満"
+        },
+        {
+          "answer_id": "d9c851df-9f1c-4461-9523-f503720db7ba",
+          "answer_text": "どれも当てはまらない"
+        }
+      ]
+    },
+    {
+      "question_id": "1da80806-90d6-492d-9c84-eb19f66a700d",
+      "question_text": "子どもが小児慢性特定疾病を持っているか",
+      "answers": [
+        {
+          "answer_id": "c5c05a51-a9d9-494a-b6f7-77688f24d854",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "1f38a7ec-4c5f-4aa5-b6ea-5b1c00e04282",
+          "answer_text": "いいえ"
+        }
+      ]
+    },
+    {
+      "question_id": "2fde3314-37f0-4e91-9a1f-f6591b3bad56",
+      "question_text": "被災した",
+      "answers": [
+        {
+          "answer_id": "62158e3f-1ab5-4302-84c4-9dacd90f8ea1",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "d9fd23ef-7405-466a-a751-5a9b53308e94",
+          "answer_text": "いいえ"
+        }
+      ]
+    },
+    {
+      "question_id": "1e6ac063-d1a2-42eb-a035-a857459f3866",
+      "question_text": "震災時に避難指示区に住んでいた",
+      "answers": [
+        {
+          "answer_id": "b8f96849-1880-469f-b188-7b0b0693d1d5",
+          "answer_text": "はい"
+        },
+        {
+          "answer_id": "67806a0b-9c2e-4e31-b403-e237b478caca",
+          "answer_text": "いいえ"
+        }
+      ]
+    }
+  ]
+}

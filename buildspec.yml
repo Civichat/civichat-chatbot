@@ -1,0 +1,19 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      nodejs: 14.x
+    commands:
+      - 'npm install -g typescript'
+      - 'npm install'
+  build:
+    commands:
+      - 'npm run build'
+  post_build:
+    commands:
+      - 'npm run db:generate'
+      - 'npm run db:migrate'
+artifacts:
+  type: zip
+  files:
+    - '**/*'
