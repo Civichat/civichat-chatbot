@@ -58,7 +58,7 @@ npm install
 ```
 
 ```
-npm run deploy:dev
+npm run build:dev
 ```
 
 別タブ
